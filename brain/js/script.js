@@ -15,7 +15,7 @@ function num(val) {
 	val = val.toString();
 
 	if (cal_done)
-		cls(); // clear everything
+		cls();
 
 	if (!operPressed) {
 		// if no operator is pressed (means it's first value)
