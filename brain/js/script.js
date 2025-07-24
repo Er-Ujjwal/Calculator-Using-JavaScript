@@ -35,7 +35,6 @@ function num(val) {
 
 		result.innerHTML = val_2;
 		smallResult.innerHTML = val_1 + oper + val_2;
-		// console.log('2nd num to be calc: ' + val_2);
 	}
 }
 
