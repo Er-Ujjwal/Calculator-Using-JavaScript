@@ -15,7 +15,6 @@ function num(val) {
 	val = val.toString();
 
 	if (cal_done)
-		// if calculation is done
 		cls(); // clear everything
 
 	if (!operPressed) {
