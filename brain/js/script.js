@@ -1,4 +1,3 @@
-
 var result = document.getElementById('result');
 var smallResult = document.getElementById('smallResult');
 var cal = false;
@@ -28,7 +27,6 @@ function num(val) {
 		smallResult.innerHTML = val_1;
 	}
 	if (operPressed) {
-		// if operator is pressed (means it's 2nd value)
 		if (!val_2) val_2 = 0;
 
 		val_2 = val_2 + val;
