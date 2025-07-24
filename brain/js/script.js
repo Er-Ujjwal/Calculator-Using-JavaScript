@@ -12,7 +12,7 @@ var currentStatus = 0;
 var o;
 
 function num(val) {
-	val = val.toString(); // converting to string so it won't be added together in display (2 + '2' should not do '22')
+	val = val.toString();
 
 	if (cal_done)
 		// if calculation is done
