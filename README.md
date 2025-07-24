@@ -6,4 +6,4 @@ Simple Calculator Using Javascript
 
 Made as an assignment while learning Javascript
 
-Domo: https://github.com/Anuraj-madd/CalCulator-Using-HTML
+Domo: http://er-ujjwal.github.io/Calculator-Using-JavaScript/
