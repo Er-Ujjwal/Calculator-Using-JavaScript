@@ -18,7 +18,6 @@ function num(val) {
 		cls();
 
 	if (!operPressed) {
-		// if no operator is pressed (means it's first value)
 		if (!val_1) val_1 = 0;
 
 		val_1 = val_1 + val;
