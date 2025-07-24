@@ -22,7 +22,7 @@ function num(val) {
 
 		val_1 = val_1 + val;
 
-		val_1 = lengthFix(val_1); // limiting to 12
+		val_1 = lengthFix(val_1);
 
 		result.innerHTML = val_1;
 		smallResult.innerHTML = val_1;
