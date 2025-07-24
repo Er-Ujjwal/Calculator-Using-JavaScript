@@ -38,7 +38,6 @@ function num(val) {
 	}
 }
 
-// when /,*,+,- is clicked
 function calc(val) {
 	if (val_1 && val_2) {
 		operPressed = true;
