@@ -49,9 +49,8 @@ function calc(val) {
 		var x = (val_1 = tot);
 		cls();
 		val_1 = x;
-		val_1 = lengthFix(val_1); // limiting to 12
-		result.innerHTML = val; // display which operator is selected
-		// var a = smallResult.innerHTML.toString();
+		val_1 = lengthFix(val_1);
+		result.innerHTML = val; 
 		smallResult.innerHTML = +x + val;
 		oper = val;
 		operPressed = true;
@@ -62,7 +61,7 @@ function calc(val) {
 	}
 
 	if (val_1 && !val_2) {
-		result.innerHTML = val; // display which operator is selected
+		result.innerHTML = val; 
 		var a = smallResult.innerHTML.toString();
 		smallResult.innerHTML = a + val;
 		oper = val;
@@ -88,8 +87,6 @@ function total() {
 	if (!noDec) tot = parseFloat(tot).toFixed(3);
 
 	result.innerHTML = tot;
-	// smallResult.innerHTML = tot;
-	// console.log('total: ' + tot);
 }
 
 function magic(a, b, oper) {
@@ -116,7 +113,6 @@ function magic(a, b, oper) {
 	return tot;
 }
 
-// clearing everything...
 function cls() {
 	smallResult.innerHTML = '';
 	result.innerHTML = 0;
