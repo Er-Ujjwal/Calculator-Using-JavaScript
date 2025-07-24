@@ -26,7 +26,6 @@ function num(val) {
 
 		result.innerHTML = val_1;
 		smallResult.innerHTML = val_1;
-		// console.log('num to be calc: ' + val_1);
 	}
 	if (operPressed) {
 		// if operator is pressed (means it's 2nd value)
