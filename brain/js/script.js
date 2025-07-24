@@ -31,7 +31,7 @@ function num(val) {
 
 		val_2 = val_2 + val;
 
-		val_2 = lengthFix(val_2); // limiting to 12
+		val_2 = lengthFix(val_2);
 
 		result.innerHTML = val_2;
 		smallResult.innerHTML = val_1 + oper + val_2;
